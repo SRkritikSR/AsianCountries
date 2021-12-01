@@ -10,7 +10,7 @@ export class GetCountries extends Component {
         }
     }
     async componentDidMount() {
-        let url = "https://restcountries.com/v2/continent/asia?fields=name,capital,flags,region,population,languages,borders"
+        let url = "https://restcountries.com/v3.1/continent/asia?fields=name,capital,flags,region,population,languages,borders"
         let data = await fetch(url);
         let parseDdata = await data.json();
         // console.log(parseDdata[0].name);

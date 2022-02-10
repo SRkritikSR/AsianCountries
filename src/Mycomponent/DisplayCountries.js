@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { GetCountries } from './GetCountries';
+
 
 export class DisplayCountries extends Component {
     render() {
@@ -11,7 +11,7 @@ export class DisplayCountries extends Component {
         return (
             <div>
                 <div className="card " style={{width: "18rem", border: "0.5px solid black", backgroundColor: "#F3D5C0"}}>
-                    <img className="card-img-top" src={Cflagurl} alt="Card image cap" style={{border: "0.25px solid black    "}} />
+                    <img className="card-img-top" src={Cflagurl} alt="Card pic cap" style={{border: "0.25px solid black    "}} />
                     <div className ="card-body">
                     <h5 className ="card-title">{Cname}</h5>
                     </div>

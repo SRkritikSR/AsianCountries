@@ -40,7 +40,7 @@ export class GetCountries extends Component {
                 <div className="row">
                     {this.state.countriesList.map((elem) => {
                         console.log(typeof(elem.name))
-                        return <div key={elem.name} className="col-md-3 my-3">
+                        return <div key={elem.name.official} className="col-md-3 my-3">
                             <DisplayCountries Cname={elem.name.official} Ccapital={elem.capital} Cregion={elem.region} Cpopulation={elem.population} Cflagurl={elem.flags.png} Clanguages={Object.values(elem.languages)} Cborders={elem.borders.map((e) => {
 
                                 return e

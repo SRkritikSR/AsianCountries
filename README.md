@@ -1,3 +1,3 @@
-## This is a website showing countries of Asia and gheir relevant details
+## This is a website showing countries of Asia and their relevant details
 Made using RESTCountries Api, React jsx.
 
